@@ -1,0 +1,9 @@
+package classpart;
+
+public class Person2 {
+	String name;
+	int height;
+	double weight;
+	char gender;
+	boolean married;
+}

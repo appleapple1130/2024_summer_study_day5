@@ -1,0 +1,39 @@
+package classpart;
+
+public class FunctionTestSelf {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1=10;
+		int num2=20;
+		
+		int hab=add(num1,num2);
+		System.out.println(num1+"+"+num2+"="+hab+"입니다.");
+		
+		int cha=sub(num1,num2);
+		System.out.println(num1+"-"+num2+"="+cha+"입니다.");
+		
+		int gob=mul(num1,num2);
+		System.out.println(num1+"*"+num2+"="+gob+"입니다.");
+		
+		float nanum=div(num1,num2);
+		System.out.println(num1+"/"+num2+"="+nanum+"입니다.");
+		
+	}
+	
+	public static int add(int n1,int n2) {
+		return n1+n2;
+	}
+	public static int sub(int n1,int n2) {
+		return n1-n2;
+	}
+	public static int mul(int n1,int n2) {
+		return n1*n2;
+	}
+	public static float div(int n1,int n2) {
+		float result=(float)(1.0*n1/n2);
+		return result;
+	}
+	
+
+}
